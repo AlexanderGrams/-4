@@ -3,103 +3,74 @@
   padding: 0;
 }
 
-.bottom {
+section#hader {
+  background-image: url(../media/Rectangle.png);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px 0;
-}
-.bottom h2 {
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-}
-
-.activity {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 80px;
+  background-size: cover;
+  background-position: center;
 }
 
-.activity__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 350px);
-  grid-auto-rows: 250px;
-  column-gap: 30px;
-  row-gap: 30px;
-}
-
-.activity__card {
-  background-color: #F7F7F7;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+div#main_txt {
+  width: 70%;
   text-align: center;
-}
-.activity__card p {
-  font-size: 21px;
-  width: 217px;
-  margin-top: 30px;
+  color: white;
+  font-family: "Oswald";
+  font-style: normal;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 35px;
+  font-size: 40px;
 }
 
-.activity__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.activity__contacts {
-  display: grid;
-  grid-template-columns: repeat(4, 350px);
-  grid-auto-rows: 200px;
-  column-gap: 30px;
-  row-gap: 30px;
-}
-
-.activity__contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+div#name_txt {
+  color: white;
+  font-family: Oswald;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
   text-align: center;
-}
-.activity__contact .symbol {
-  margin-bottom: 30px;
-}
-.activity__contact p {
-  color: #999999;
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  text-transform: uppercase;
-}
-.activity__contact .contact-data {
-  width: 240px;
-}
-.activity__contact .contact-data p {
-  color: black;
-  font-family: "Oswald";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
+  margin-bottom: 15px;
 }
 
-a {
-  text-decoration: none;
-  text-transform: uppercase;
+div#market_years {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 80%;
+  padding: 20px 0;
+}
+
+div.year {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p.year_num {
+  font-size: 50px;
   color: #F7654A;
+}
+
+div.year > p {
+  margin-bottom: 10px;
+}
+
+p.year_m {
+  font-size: 10px;
+  color: #999999;
+}
+
+p.year_txt {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
