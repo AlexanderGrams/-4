@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-<<<<<<< HEAD
 .part_2 {
   display: flex;
   justify-content: space-between;
@@ -117,8 +116,9 @@ button {
   line-height: 21px;
   letter-spacing: 0.05em;
   color: #000000;
-=======
-section#hader {
+}
+
+section#hader{
   background-image: url(../media/Rectangle.png);
   display: flex;
   justify-content: center;
@@ -186,7 +186,6 @@ p.year_m {
 
 p.year_txt {
   font-size: 20px;
->>>>>>> a99558b092db99b63bbcc34af92a3aa48da92d05
 }
 
 .part_2 {
